@@ -1,0 +1,12 @@
+app.get("/", (req, res) => {
+    res.render(path.join(__dirname, '/main'));
+    result = get_url(callback);
+    //res.send(result);
+});
+
+
+app.get("/home", (req, res) => {
+    res.render(path.join(__dirname, '/main'));
+    result = get_url(callback);
+    //res.send(result);
+});
